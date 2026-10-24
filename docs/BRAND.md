@@ -4,6 +4,10 @@
 
 Chameleon Enterprise provides adaptable professional services in operations, IT, and HR. Lead with the people who make a business work: their judgment, creativity, relationships, and ability to grow. Describe technology and AI as useful support for that work. Keep copy practical, clear, and grounded in owner-provided facts.
 
+## Consulting content
+
+The owner confirmed that the historical consulting projects reviewed in October 2026 were executed, including projects documented in draft proposals. Public copy may describe practical experience with Microsoft 365 rollouts, shared workspaces, operating procedures, onboarding, manager development, feedback, and performance expectations. Keep examples anonymous and omit private client documents, organizational challenges, pricing, and personal information. Do not invent measured outcomes or testimonials. AI is a current service direction, not a claim of historical AI project delivery.
+
 ## Logo
 
 The full business name is **Chameleon Enterprise Ltd Co**. Use this full name in copyright notices. The public-facing logo and marketing name may remain Chameleon Enterprise.
@@ -37,7 +41,7 @@ CSS tokens `--font-heading` and `--font-body` define the families. Both fonts ar
 | Rules/borders | `#c6cfda` |
 | Logo teal accent | approximately `#268f91` |
 
-Keep teal restrained within the logo. Do not use the accent for small body text without checking contrast.
+Teal may also appear as restrained service accents, pale photo framing, and a decorative chameleon scroll rail. Use dark teal `#176b6d` for text on white; keep the primary palette navy, white, and slate. Real photography should reflect small, owner-operated businesses across industries. Avoid generic startup-office imagery. See `assets/photos/README.md` for sources.
 
 ## Font sources and licenses
 

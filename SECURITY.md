@@ -12,7 +12,7 @@ Public visitors are untrusted. Repository writers and workflow maintainers can a
 
 The site does not handle sessions, accept submissions, or store customer or employee information. Navigating to Pocket ID crosses into a separate authentication system. The static site does not verify identities or grant access to protected resources.
 
-The local `site.js` file manages mobile-menu visibility and header scrolling only. It makes no network requests, reads no credentials, and persists no data. The site checker permits this deferred local script while rejecting inline handlers, inline script content, and other script entry points. New script behavior still requires review of its trust boundaries.
+The local `site.js` file manages mobile-menu visibility, header scrolling, and a decorative chameleon whose position follows scroll progress. It makes no network requests, reads no credentials, and persists no data. The site checker permits this deferred local script while rejecting inline handlers, inline script content, and other script entry points. New script behavior still requires review of its trust boundaries.
 
 ## Security invariants
 
