@@ -12,6 +12,8 @@ The full business name is **Chameleon Enterprise Ltd Co**. Use this full name in
 
 The generated lettering is part of the image, not live text set in the website fonts. Keep the transparent padding around the artwork. The image is a working identity asset; no vector master or trademark clearance is implied.
 
+`assets/favicon.png` contains the standalone chameleon without lettering, on a white badge with transparent outer corners for visibility in light and dark browser chrome. It is exported at 64×64 for browser tabs, with `assets/apple-touch-icon.png` exported at 180×180 for touch icons. The Pages workflow includes both automatically as part of `assets/`.
+
 ## Typography
 
 | Role | Font | Weight | Treatment |
