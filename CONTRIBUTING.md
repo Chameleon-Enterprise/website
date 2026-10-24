@@ -14,6 +14,8 @@ For visual changes, inspect desktop and mobile layouts, anchors, keyboard naviga
 
 ## Pull requests
 
+Obtain explicit user approval before creating any Git commit or pushing to GitHub. An editing request does not authorize either action. Prepare the changes and validation results for review, then keep them local until approval covers the intended commit or push.
+
 Describe the user-visible result, reason, checks, and remaining configuration. Include screenshots for substantial visual changes. Use the PR template for useful evidence; do not add tests that only mirror implementation.
 
 After bootstrap, propose changes through PRs. Configure review enforcement and branch protection separately in GitHub; documentation alone does not enforce them. Merging is not deployment until hosting is configured.

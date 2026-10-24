@@ -24,9 +24,10 @@ These instructions apply throughout this repository. Read `README.md`, `SECURITY
 4. Run `python3 scripts/check_site.py` and `git diff --check`.
 5. For UI changes, review desktop/mobile layouts, anchors, keyboard focus, and the Employee Login URL. Report browser verification limits honestly.
 6. Update documentation when behavior or setup changes.
-7. When publishing is authorized, open a pull request describing the result, validation, and remaining configuration. Source changes alone do not prove deployment or sign-in.
+7. Obtain explicit user approval before creating any Git commit or pushing to GitHub. Permission to edit files, run checks, or prepare a branch does not imply approval to commit or push. Present the concrete changes and validation results for approval, and keep work local until approval clearly covers the intended commit or push.
+8. After approved commits and pushes, open a pull request when requested or authorized. Describe the result, validation, and remaining configuration. Source changes alone do not prove deployment or sign-in.
 
-Do not force-push shared branches, delete repositories, change organization access, bypass review protections, or alter DNS without specific authorization. Routine reversible work in the requested scope does not need repeated confirmation. Bootstrap may create the initial `main` commit because an empty repository has no pull-request base.
+Do not force-push shared branches, delete repositories, change organization access, bypass review protections, or alter DNS without specific authorization. Routine reversible local work in the requested scope does not need repeated confirmation. The explicit approval requirement for commits and pushes applies to all future work, including any bootstrap or initial commit.
 
 ## Commands
 

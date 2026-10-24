@@ -10,18 +10,27 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.chameleonenterprise.com/">
     <link rel="canonical" href="https://www.chameleonenterprise.com/">
+    <link rel="preload" href="assets/fonts/source-serif-4-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="styles.css">
+    <script src="site.js" defer></script>
     <title>Chameleon Enterprise | Operations, IT &amp; HR Consulting</title>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header container">
-      <a class="wordmark" href="#main" aria-label="Chameleon Enterprise home">Chameleon Enterprise</a>
-      <nav aria-label="Main navigation">
-        <a href="#services">Services</a>
-        <a href="#approach">Our approach</a>
-        <a class="button button-outline" id="employee-login" href="https://id.chameleonenterprise.com">Employee Login</a>
-      </nav>
+    <header class="site-header">
+      <div class="header-inner container">
+        <a class="wordmark" href="#main" aria-label="Chameleon Enterprise home"><img src="assets/chameleon-enterprise-logo.png" alt="Chameleon Enterprise" width="2172" height="724"></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" hidden>
+          <span class="nav-toggle-label">Menu</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path class="menu-line-top" d="M4 7h16"/><path class="menu-line-middle" d="M4 12h16"/><path class="menu-line-bottom" d="M4 17h16"/></svg>
+        </button>
+        <nav id="main-navigation" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#approach">Our approach</a>
+          <a class="button button-outline" id="employee-login" href="https://id.chameleonenterprise.com">Employee Login</a>
+        </nav>
+      </div>
     </header>
     <main id="main">
       <section class="hero container" aria-labelledby="hero-title">
@@ -30,7 +39,7 @@
           <p class="hero-description">Thoughtful support for the people, processes, and technology that move your business forward.</p>
           <a class="button button-primary" href="#services">Explore our services <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
         </div>
-        <p class="hero-statement">People.<br>Possibility.<br>Progress.</p>
+        <p class="hero-statement"><span>People.</span> <span>Possibility.</span> <span>Progress.</span></p>
       </section>
       <section class="services" id="services" aria-labelledby="services-title">
         <div class="container">
@@ -61,8 +70,10 @@
       </section>
     </main>
     <footer class="site-footer container">
-      <div class="footer-row"><a class="wordmark" href="#main">Chameleon Enterprise</a><p>Operations <span aria-hidden="true">/</span> IT <span aria-hidden="true">/</span> HR</p></div>
-      <p class="copyright">&copy; Chameleon Enterprise. All rights reserved.</p>
+      <div class="footer-row">
+        <p class="copyright">&copy; Chameleon Enterprise Ltd Co. All rights reserved.</p>
+        <p>Operations <span aria-hidden="true">/</span> IT <span aria-hidden="true">/</span> HR</p>
+      </div>
     </footer>
   </body>
 </html>
