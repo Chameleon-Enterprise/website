@@ -21,7 +21,9 @@ Open http://127.0.0.1:8080 after starting the server. Run the checks in a second
 
 ## Website features
 
-- People-centered introduction, consulting services, and company approach.
+- People-centered introduction, practical Operations / IT / HR services, and company approach.
+- Real, self-hosted Pexels photography of small-business work, with photographer credits.
+- Restrained teal accents and a decorative chameleon that follows scroll progress down the left on desktop and left to right along the bottom on smaller screens; respects reduced motion.
 - Navy, white, and slate branding with a teal-accented chameleon wordmark.
 - Self-hosted Source Serif 4 headings and Inter body/control text, with font licenses included.
 - Responsive layouts and accessible mobile navigation with a JavaScript-free fallback.
